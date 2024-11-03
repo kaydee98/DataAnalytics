@@ -18,4 +18,14 @@
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+>### Key Insights for Presentation
+The notebook focuses on analyzing the Ford GoBike dataset to understand the influence of **age, gender, and user type** on bike-sharing trip durations. Here’s a summary of the main findings that can be polished and presented:
+
+1. **Key Findings**:
+   - **Age and Trip Duration**: Younger users, primarily within the 20-40 age range, dominate the usage, with most trips lasting under 200 minutes. The age distribution is right-skewed, tapering off as age increases.
+   - **User Type Differences**: Trip duration patterns vary significantly between **Subscribers** (consistent and shorter trips) and **Customers** (occasional users with greater variability).
+   - **Gender Influence**: Gender differences in trip frequency are minimal; however, Male users make the most trips.
+
+2. **Design Adjustments**:
+   - **Data Cleaning**: Outliers, like unrealistic ages (75+ years) and unusually long trips (over 250 minutes), required handling to enhance data reliability.
+   - **Visual Emphasis**: Focusing on visuals that clearly separate Subscriber vs. Customer behavior will illustrate trip duration consistency and variability effectively.
