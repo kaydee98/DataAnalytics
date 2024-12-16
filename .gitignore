@@ -3,10 +3,6 @@
 __pycache__/
 **/__pycache__/
 
-# Ignore temporary files
-*.temp
-*.~*
-
 # Ignore checkpoint files
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
